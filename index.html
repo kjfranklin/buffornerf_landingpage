@@ -20,6 +20,8 @@
             --card-bg: #262730;
             --text-color: #fafafa;
             --accent-color: #ff4b4b;
+            --buff-color: #00FF00;
+            --nerf-color: #FF0000;
             --secondary-text: #808495;
         }
 
@@ -53,8 +55,12 @@
             letter-spacing: -1px;
         }
 
-        .highlight {
-            color: var(--accent-color);
+        .highlight-buff {
+            color: var(--buff-color);
+        }
+
+        .highlight-nerf {
+            color: var(--nerf-color);
         }
 
         p.tagline {
@@ -115,10 +121,11 @@
 <body>
 
     <div class="container">
-        <img src="https://raw.githubusercontent.com/YourRepo/main/images/BuffOrNerfLogo.png" alt="BUFF or NERF Logo" class="logo" onerror="this.style.display='none'">
+        <img src="https://github.com/kjfranklin/buffornerf_landingpage/blob/main/BuffOrNerfLogo.png?raw=true" alt="BUFF or NERF Logo" class="logo" onerror="this.style.display='none'">
         
-        <h1><span class="highlight">BUFF</span> or <span class="highlight">NERF</span></h1>
-        <p class="tagline">Simplifying the meta. Tracking the patches. Every champion, every item.</p>
+        <h1><span class="highlight-buff">BUFF</span> or <span class="highlight-nerf">NERF</span></h1>
+        <p class="tagline">Simplifying the meta. Tracking the patches. Every champion/hero/agent, every item.</p>
+        <p class="tagline">Currently supported games:</p>
 
         <div class="game-grid">
             <div class="game-card">
