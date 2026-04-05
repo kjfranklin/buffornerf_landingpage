@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUFF or NERF | Esports Patch Notes & Meta Analysis</title>
+    
+    <meta name="description" content="The ultimate dashboard for tracking buffs and nerfs in League of Legends, Valorant, Dota 2, and Overwatch. Get real-time patch analysis and item meta changes.">
+    <meta name="keywords" content="Esports, Patch Notes, LoL Buffs, Valorant Nerfs, Dota 2 Meta, Overwatch Updates, Gaming Analytics">
+    <meta name="author" content="BUFF or NERF">
+    
+    <meta property="og:title" content="BUFF or NERF | Esports Patch Notes">
+    <meta property="og:description" content="Track live meta changes for your favorite esports titles. Stay ahead of the patch.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://buffornerf.net">
+    
+    <style>
+        :root {
+            --bg-color: #0e1117;
+            --card-bg: #262730;
+            --text-color: #fafafa;
+            --accent-color: #ff4b4b;
+            --secondary-text: #808495;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 40px 20px;
+        }
+
+        .logo {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+        }
+
+        p.tagline {
+            font-size: 1.2rem;
+            color: var(--secondary-text);
+            margin-bottom: 40px;
+        }
+
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .game-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+        }
+
+        .game-card h3 {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: opacity 0.2s;
+            box-shadow: 0 4px 15px rgba(255, 75, 75, 0.3);
+        }
+
+        .cta-button:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 0.8rem;
+            color: var(--secondary-text);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/YourRepo/main/images/BuffOrNerfLogo.png" alt="BUFF or NERF Logo" class="logo" onerror="this.style.display='none'">
+        
+        <h1><span class="highlight">BUFF</span> or <span class="highlight">NERF</span></h1>
+        <p class="tagline">Simplifying the meta. Tracking the patches. Every champion, every item.</p>
+
+        <div class="game-grid">
+            <div class="game-card">
+                <h3>League of Legends</h3>
+            </div>
+            <div class="game-card">
+                <h3>Valorant</h3>
+            </div>
+            <div class="game-card">
+                <h3>Dota 2</h3>
+            </div>
+            <div class="game-card">
+                <h3>Overwatch</h3>
+            </div>
+        </div>
+
+        <a href="https://app.buffornerf.net" class="cta-button">Enter the App →</a>
+
+        <footer>
+            &copy; 2026 BUFF or NERF. Not affiliated with Riot Games, Valve, or Blizzard.
+        </footer>
+    </div>
+
+</body>
+</html>
